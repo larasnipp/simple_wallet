@@ -1,0 +1,27 @@
+{
+  "name": "simple-wallet",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "1.2.15",
+    "angular-cookies": "1.2.15",
+    "angular-qr": "latest",
+    "angular-resource": "1.2.15",
+    "angular-route": "1.2.15",
+    "angular-sanitize": "1.2.15",
+    "bootstrap-sass-official": "~3.1.0",
+    "es5-shim": "~2.1.0",
+    "jquery": "~1.11.0",
+    "json3": "~3.2.6",
+    "underscore": "latest",
+    "secure-random": "latest",
+    "firebase": "latest",
+    "socket.io-client": "0.9.16"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.2.15",
+    "angular-scenario": "1.2.15",
+    "secure-random": "~0.2.1",
+    "firebase": "~1.0.14",
+    "socket.io-client": "~0.9.16"
+  }
+}

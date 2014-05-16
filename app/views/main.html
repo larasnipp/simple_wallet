@@ -1,0 +1,15 @@
+<div>
+  <div class=balance>{{balance}} BTC</div>
+  <div class=address>Address: {{address}}</div>
+  <qr text='address'></qr>
+  <div class=pay>
+    <input type=text ng-model=payToAddress placeholder='bitcoin address, email, phone' id=pay-to />
+    <input ng-model=amount placeholder='Amount'/>
+    <input type=submit value='Pay' ng-click='pay()'>
+  </div>
+</div>
+<div>Other People Using Simple Wallet</div>
+{{addresses}}
+<div class=addresses>
+  {{address}}
+</div>
